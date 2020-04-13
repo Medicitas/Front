@@ -14,6 +14,37 @@ html,body{padding: 0px; margin: 0px; width: 100%; height: 100vh; font-family: "R
     color: #0B3954;
 }
 
+.divregistrer {
+    background: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    color: #0B3954;
+}
+
+.divregistrer .container {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.divregistrer .container .divcont {
+    width: 100%;
+    max-width: 800px;
+    color: #0B3954;
+    background: rgba(255,255,255,0.7);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+}
+
+.divregistrer .container .divcont h3 {
+        margin-top: 5px;
+}
+
 .divlogin .container{
     width: 100%;
     text-align: center;
@@ -48,9 +79,6 @@ html,body{padding: 0px; margin: 0px; width: 100%; height: 100vh; font-family: "R
     border-bottom: 3px solid #DA5552;
 }
 
-
-
-
 .divlogin .container .divcont button{
     margin: 0px;
     border: 0px;
@@ -69,11 +97,13 @@ html,body{padding: 0px; margin: 0px; width: 100%; height: 100vh; font-family: "R
     color: #0B3954;
 }
 
-.tituloPrincipal{
+.tituloPrincipal {
+    text-align: center;
     display: inline-block;
     position: relative;
     background: transparent;
     font-size: 20px;
+    color: #0B3954;
 }
 
 body{
